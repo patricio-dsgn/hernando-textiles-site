@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="./mail/mailStyle.css">
+</head>
+<body>
+
+    <div class="block-mail">
+		<form id="myForm" name="myForm" action="./mail/mailBackend.php" method="post">
+			<input type="text" id="name" name="name" placeholder="Nombre">
+			<input type="text" id="email" name="email" placeholder="Correo Electrónico">
+			<textarea id="message" name="message" placeholder="Mensaje"></textarea>
+			<button type="button" id="send" class="btn btn-send">Enviar</button>
+		</form>
+        <div id="status"></div>
+        <script src="./mail/mailAjax.js"></script>
+    </div>
+    <!-- - -->
+
+</body>
+</html>

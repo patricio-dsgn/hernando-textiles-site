@@ -1,0 +1,198 @@
+/*reset*/
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: content-box;
+}
+
+/*globales*/
+
+body{
+	margin: 20px;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #888;
+}
+
+h1{
+	font-size: 20px;
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+
+ul{
+	display: block;
+	font-size: 120%;
+	margin-bottom: 30px;
+}
+li{
+	margin-bottom: 10px;
+	list-style-position: inside;
+	font-size: 80%;
+}
+
+#form_mail{
+	display: block;
+	padding: 20px;
+	width: 300px;
+	border: 4px solid #18C;
+	border-radius: 10px;
+	box-shadow: 10px 10px 0px 0px rgba(20, 130, 200, 0.2);
+}
+
+input,
+textarea{
+	display: block;
+	margin: 10px 0;
+	padding: 10px;
+	width: 280px;
+	border: 1px solid #18C;
+	border-radius: 10px;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+textarea:focus,
+input:focus{
+    outline: none;
+    border: 1px solid #888;
+}
+
+textarea::placeholder,
+input::placeholder{
+	color: #888;
+}
+
+input{
+	height: 20px;
+}
+
+textarea{
+	height: 100px;
+}
+
+input[name="submit"] {
+	background: #18C;
+	color: rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+	font-weight: bold;
+}
+
+/*estilos para validar con js*/
+.error{
+	border: 2px solid #900;
+	color:#900
+}
+
+.success{
+	border: 2px solid #080;
+	color:#080
+}
+
+/*estilos para ajax */
+
+.line{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.block-mail{
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin: 40px 0 ;
+	border-radius: 10px;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.btn{
+	position: relative;
+	display: inline-block;
+	padding:10px;
+	border-radius: 10px;
+	background: #ccc;
+	color: rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.btn-get{
+	background: #C70;
+}
+
+.btn-post{
+	background: #18C;
+}
+
+.response_get{
+    padding: 10px;
+    height: auto;
+    width: 300px;
+    margin: 10px 0;
+    border: 2px solid #C70;
+    border-radius: 10px;
+}
+
+.response_post{
+    border: 2px solid #18C;
+    max-width: 300px;
+    margin: 10px 0;
+    min-height: 100px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/*estilos para mostar contenido en backend*/
+
+.title_description{
+	display: inline-block;
+	margin: 50px 0 0 0;
+	padding: 5px 10px;
+	font-size: 80%;
+	font-weight: bold;
+	border-radius: 5px;
+	background: #ccc;
+}
+
+.thanks{
+	margin: 10px 0 0 0;
+	padding: 30px;
+	width: 300px;
+	border: 4px solid #17D452;
+	border-radius: 30px;
+}
+
+.thanks p:nth-child(1){
+	color: #17D452;
+	margin-bottom: 10px;
+}
+
+.tag{
+	margin: 10px 0 0 0;
+	padding: 5px;
+	width: 300px;
+	font-size: 80%;
+	border: 2px solid #ccc;
+	border-radius: 5px;
+}
+
+.tag div{
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+.tag div span{
+	display: block;
+	font-weight: bold;
+}
+
+
+.email{
+	margin: 10px 0 0 0;
+	padding: 5px;
+	width: 500px;
+
+	border: 2px solid #ccc;
+	border-radius: 5px;
+}
